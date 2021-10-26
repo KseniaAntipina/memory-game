@@ -45,12 +45,12 @@ const Board = () => {
                     setFoundPairs([...foundPairs, firstIndex, secondsIndex])
                     setActiveCards([])
                 }
+                else {
+                    setTimeout(() => {
+                        setActiveCards([]);
+                    }, 900)
+                }
             }
-
-            setTimeout(() => {
-                setActiveCards([]);
-            }, 900)
-
         }
     }
 

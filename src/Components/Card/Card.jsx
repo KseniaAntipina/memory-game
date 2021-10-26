@@ -1,11 +1,9 @@
 import React from 'react'
 import styles from './Card.module.css'
 
-
-const Card = ({flipCard,pictureSrc,flippedToFront,index,name}) => {
+const Card = ({flipCard,pictureSrc,flippedToFront,index}) => {
 
     return (
-
 
         <div>
             {
@@ -17,7 +15,7 @@ const Card = ({flipCard,pictureSrc,flippedToFront,index,name}) => {
                     </div>
                :
                     <div className={`${styles.card} ${styles.flipped} `}
-                         onClick={() => flipCard(index, name)}>
+                         onClick={() => flipCard(index)}>
                         <img src={pictureSrc} alt="card"
                              className={styles.back}
                         />
