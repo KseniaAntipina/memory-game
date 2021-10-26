@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 640px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn {
+    width: 150px;
+    margin: 20px auto 20px auto;
+    max-width: 100%;
+    padding: 10px;
+    display: block;
+    background: transparent;
+    color: darkcyan;
+    font-size: 14px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
